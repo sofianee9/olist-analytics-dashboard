@@ -37,7 +37,7 @@ with st.sidebar:
     
     # Liens externes
     st.markdown("👉 [Mon Profil LinkedIn](https://www.linkedin.com/in/sofiane-el-morabit-4a71aa20b//)")
-    st.markdown("👉 [Mon Portfolio GitHub](https://github.com/ton-pseudo)")
+    st.markdown("👉 [Mon Portfolio GitHub](https://github.com/sofianee9)")
     
     st.markdown("---")
     st.write("**A propos de ce projet :**")
@@ -339,4 +339,5 @@ if df is not None:
         """)
 
 else:
+
     st.error("❌ Erreur Critique : Données introuvables. Vérifiez le dossier `data/raw`.")
